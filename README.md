@@ -36,3 +36,4 @@ Python Analysis
 Power BI Dashboard
 
 # Dashboard Preview
+bank_churn_dashboard.png
