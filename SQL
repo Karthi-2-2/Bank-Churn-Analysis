@@ -1,4 +1,3 @@
-#
 SELECT count(*) AS Total_Customers
 from Bank_Churn_Classification_Dataset;
 
