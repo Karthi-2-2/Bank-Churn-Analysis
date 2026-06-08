@@ -9,15 +9,11 @@ This project focuses on analyzing customer churn data to understand customer beh
 - Power BI
 - Excel
 
-----
-
 # Key Metrics
--Total Customers: 10,000
--Churned Customers: 2,670
--Churn Rate: 26.7%
--Average Monthly Charges: 70.45
-
-----
+- Total Customers: 10,000
+- Churned Customers: 2,670
+- Churn Rate: 26.7%
+- Average Monthly Charges: 70.45
 
 # Dashboard Features
 -Churn Distribution
