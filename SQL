@@ -1,0 +1,41 @@
+SELECT count(*) AS Total_Customers
+from Bank_Churn_Classification_Dataset;
+
+SELECT COUNT(*) AS Churned_Customers
+from Bank_Churn_Classification_Dataset
+WHERE Churn=1;
+
+SELECT ROUND(SUM(Churn)*100/COUNT(*),2)AS Churn_Rate
+from Bank_Churn_Classification_Dataset;
+
+SELECT seniorcitizen,COUNT(*) AS Churned_customers
+from Bank_Churn_Classification_Dataset
+WHERE churn=1
+GROUP by seniorcitizen;
+
+SELECT paymentmethod,COUNT(*) AS Churned_customers
+from Bank_Churn_Classification_Dataset
+WHERE churn=1
+GROUP by paymentmethod;
+
+SELECT contract,COUNT(*) AS Churned_customers
+from Bank_Churn_Classification_Dataset
+WHERE churn=1
+GROUP by contract;
+
+SELECT gender,COUNT(*) AS Churned_Customers
+from Bank_Churn_Classification_Dataset
+WHERE churn=1
+GROUP by gender;
+
+SELECT churn,ROUND(AVG(monthlycharges),2)AS Avg_Monthly_Charges
+FROM Bank_Churn_Classification_Dataset
+GROUP by churn;
+
+SELECT churn,ROUND(AVG(totalcharges),2)AS Avg_Total_Charges
+FROM Bank_Churn_Classification_Dataset
+GROUP by churn;
+
+SELECT churn,ROUND(AVG(tenure),2)AS Avg_Tenure
+FROM Bank_Churn_Classification_Dataset
+GROUP by churn;
