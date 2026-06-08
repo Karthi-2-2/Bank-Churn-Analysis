@@ -1,7 +1,8 @@
-'''python
-
+----
 import pandas as pd
 df=pd.read_csv("/content/Bank_Churn_Classification_Dataset.csv")
+
+----
 
 print(df.head())
 print(df.columns)
@@ -50,4 +51,4 @@ corr=numerix_df.corr()
 sns.heatmap(corr,annot=True)
 plt.show()
 
-''''
+
