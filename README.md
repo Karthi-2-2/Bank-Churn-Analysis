@@ -31,10 +31,4 @@ Payment methods show varying churn distributions.
 
 ## Dashboard Preview
 
-![Bank Churn Dashboard](bank_churn_dashboard.png)
-SQL Queries
-Python Analysis
-Power BI Dashboard
-
-# Dashboard Preview
-bank_churn_dashboard.png
+![Bank Churn Dashboard](images/bank_churn_dashboard.png)
