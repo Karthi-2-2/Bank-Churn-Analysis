@@ -29,8 +29,9 @@ Contract type influences customer churn behavior.
 Customer tenure is related to churn patterns.
 Payment methods show varying churn distributions.
 
-# Project Files
-Dataset
+## Dashboard Preview
+
+![Bank Churn Dashboard](bank_churn_dashboard.png)
 SQL Queries
 Python Analysis
 Power BI Dashboard
