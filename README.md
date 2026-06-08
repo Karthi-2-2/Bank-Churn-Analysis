@@ -3,9 +3,9 @@ Project Overview
 
 This project focuses on analyzing customer churn data to understand customer behavior and identify factors that contribute to customer churn.
 
-Tools Used
-SQL
-Python(Colab)
+# Tools Used
+SQL(SQLiteOnline)
+Python(Google Colab)
 Power BI
 Excel
 
