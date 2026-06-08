@@ -16,22 +16,18 @@ This project focuses on analyzing customer churn data to understand customer beh
 - Average Monthly Charges: 70.45
 
 # Dashboard Features
--Churn Distribution
--Contract vs Churn
--Payment Method Analysis
--Senior Citizen Analysis
--Tenure Analysis
--Interactive Filters
-
-----
+- Churn Distribution
+- Contract vs Churn
+- Payment Method Analysis
+- Senior Citizen Analysis
+- Tenure Analysis
+- Interactive Filters
 
 # Key Insights
--Churn Rate is 26.7%.
--Contract type influences customer churn behavior.
--Customer tenure is related to churn patterns.
--Payment methods show varying churn distributions.
-
------
+- Churn Rate is 26.7%.
+- Contract type influences customer churn behavior.
+- Customer tenure is related to churn patterns.
+- Payment methods show varying churn distributions.
 
 ## Dashboard Preview
 
